@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="bg-right bg-[url('src/assets/LandingHeroImg.png')] w-full  h-screen  flex flex-col justify-center items-center borde">
+    <div className="bg-right bg-[url('assets/LandingHeroImg.png')] w-full  h-screen  flex flex-col justify-center items-center borde">
       <div className="flex w-[480px] px-10 py-5 lg:w-[800px] capitalize text-center  flex-col justify-center items-center gap-3 borde">
         <p className="text-xl">
           Best platform for agricultural farms produces.
