@@ -5,6 +5,17 @@ import NavBar from "./components/Layout/NavBar";
 import Footer from "./components/Layout/Footer";
 import AboutUsPage from "./pages/AboutUsPage";
 import ContactUsPage from "./pages/ContactUsPage";
+import EggsBreeding from "./pages/EggsBreeding";
+import BlogsPage from "./pages/BlogsPage";
+import ChickenPage from "./pages/ChickenPage";
+import FAQPage from "./pages/FAQPage";
+import FarmPage from "./pages/FarmPage";
+import LandPage from "./pages/LandPage";
+import LivestockPage from "./pages/LivestockPage";
+import NotFound404 from "./pages/NotFound404";
+import PartnersPage from "./pages/PartnersPage";
+import PigAnimals from "./pages/PigAnimals";
+import TeamPage from "./pages/TeamPage";
 
 function App() {
   return (
@@ -15,6 +26,17 @@ function App() {
           <Route exact path="/" element={<LandingPage />} />
           <Route exact path="/about-us" element={<AboutUsPage />} />
           <Route exact path="/contact-us" element={<ContactUsPage />} />
+          <Route exact path="/eggs-breeding" element={<EggsBreeding />} />
+          <Route exact path="/Blogs" element={<BlogsPage />} />
+          <Route exact path="/Chicken" element={<ChickenPage />} />
+          <Route exact path="/FAQ" element={<FAQPage />} />
+          <Route exact path="/Farm" element={<FarmPage />} />
+          <Route exact path="/Land" element={<LandPage />} />
+          <Route exact path="/Livestock" element={<LivestockPage />} />
+          <Route exact path="/NotFound404" element={<NotFound404 />} />
+          <Route exact path="/Partners" element={<PartnersPage />} />
+          <Route exact path="/PigAnimals" element={<PigAnimals />} />
+          <Route exact path="/Team" element={<TeamPage />} />
         </Routes>
         <Footer />
       </Router>

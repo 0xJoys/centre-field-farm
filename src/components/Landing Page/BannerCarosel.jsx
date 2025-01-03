@@ -4,9 +4,9 @@ import BannerChick from "../../assets/Banner Chick.png";
 
 const BannerCarosel = () => {
   return (
-    <div className="flex flex-col justify-center  x-10 w-full relative py-20 borde border-red-600">
+    <div className="flex flex-col justify-center w-full relative py-20 borde border-red-600">
       <img src={BannerChick} alt="" className="w-full" />
-      <div className="absolute flex flex-col gap-4 ml-10 lg:ml-40 lg:w-1/3 ">
+      <div className="absolute flex flex-col gap-4 m-10 lg:ml-40 lg:w-1/3 w-fit ">
         <h1 className="lg:text-MainHeading capitalize">
           invest in livestock products!
         </h1>

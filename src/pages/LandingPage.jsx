@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../components/Landing Page/Hero";
 import HeroStats from "../components/Landing Page/HeroStats";
 import IntroductionToCen from "../components/Landing Page/IntroductionToCen";
-import ProductCard from "../components/Landing Page/ProductCard";
+import ProductCard from "../components/Utils/ProductCard";
 
 import GreenField from "./../assets/greenField.png";
 import HenInCage from "./../assets/HenInCage.png";
@@ -10,6 +10,7 @@ import OurProducts from "../components/Landing Page/OurProducts";
 import WhyWeAreDiff from "../components/Landing Page/WhyWeAreDiff";
 import WhatArePeople from "../components/Landing Page/WhatArePeople";
 import BannerCarosel from "../components/Landing Page/BannerCarosel";
+import TrustedBy from "../components/Landing Page/TrustedBy";
 
 const LandingPage = () => {
   return (
@@ -39,6 +40,7 @@ const LandingPage = () => {
       <WhyWeAreDiff />
       <WhatArePeople />
       <BannerCarosel />
+      <TrustedBy />
     </div>
   );
 };
