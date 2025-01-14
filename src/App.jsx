@@ -27,16 +27,16 @@ function App() {
           <Route exact path="/about-us" element={<AboutUsPage />} />
           <Route exact path="/contact-us" element={<ContactUsPage />} />
           <Route exact path="/eggs-breeding" element={<EggsBreeding />} />
-          <Route exact path="/Blogs" element={<BlogsPage />} />
-          <Route exact path="/Chicken" element={<ChickenPage />} />
-          <Route exact path="/FAQ" element={<FAQPage />} />
-          <Route exact path="/Farm" element={<FarmPage />} />
-          <Route exact path="/Land" element={<LandPage />} />
-          <Route exact path="/Livestock" element={<LivestockPage />} />
-          <Route exact path="/NotFound404" element={<NotFound404 />} />
-          <Route exact path="/Partners" element={<PartnersPage />} />
-          <Route exact path="/PigAnimals" element={<PigAnimals />} />
-          <Route exact path="/Team" element={<TeamPage />} />
+          <Route exact path="/blogs" element={<BlogsPage />} />
+          <Route exact path="/chicken" element={<ChickenPage />} />
+          <Route exact path="/fAQ" element={<FAQPage />} />
+          <Route exact path="/farm" element={<FarmPage />} />
+          <Route exact path="/land" element={<LandPage />} />
+          <Route exact path="/livestock" element={<LivestockPage />} />
+          <Route exact path="/notFound404" element={<NotFound404 />} />
+          <Route exact path="/partners" element={<PartnersPage />} />
+          <Route exact path="/pigAnimals" element={<PigAnimals />} />
+          <Route exact path="/team" element={<TeamPage />} />
         </Routes>
         <Footer />
       </Router>
