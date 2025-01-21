@@ -112,7 +112,7 @@ const Footer = () => {
           <div className="borde w-52">
             <h1 className="text-3xl">Resources </h1>
             <ul className="flex flex-col gap-2 text-xl">
-              <Link>
+              <Link to="/blogs">
                 <li className="hover:text-PrimaryColor cursor-pointer">
                   blogs
                 </li>

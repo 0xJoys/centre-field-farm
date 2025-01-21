@@ -25,7 +25,7 @@ const BlogMainBody = () => {
     },
   ];
   return (
-    <div className="flex flex-col lg:grid lg:grid-cols-2 gap-5 borde my-10 border-green-400">
+    <div className="flex flex-col lg:grid lg:grid-cols-2 gap-5 borde my-10 border-green-400 abos">
       {CardDetails.map((items) => (
         <div className="w-[350px] border border-pink-600">
           <div className="absolute w-[350px] capitalize mt-64 borde px-5">

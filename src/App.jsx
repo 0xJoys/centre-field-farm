@@ -17,10 +17,14 @@ import PartnersPage from "./pages/PartnersPage";
 import PigAnimals from "./pages/PigAnimals";
 import TeamPage from "./pages/TeamPage";
 
+import ScrollToTop from "./components/ScrollToTop";
+
+
 function App() {
   return (
     <>
       <Router>
+      <ScrollToTop />
         <NavBar />
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
