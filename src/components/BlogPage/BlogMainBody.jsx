@@ -23,6 +23,26 @@ const BlogMainBody = () => {
       productTitle: "agriculture manufacture science",
       image: img4,
     },
+    {
+      productTitle: "agriculture manufacture science",
+      image: img4,
+    },
+    {
+      productTitle: "agriculture manufacture science",
+      image: img4,
+    },
+    {
+      productTitle: "agriculture manufacture science",
+      image: img4,
+    },
+    {
+      productTitle: "agriculture manufacture science",
+      image: img4,
+    },
+    {
+      productTitle: "agriculture manufacture science",
+      image: img4,
+    },
   ];
   return (
     <div className="flex flex-col lg:grid lg:grid-cols-2 gap-5 borde my-10 border-green-400 abos">

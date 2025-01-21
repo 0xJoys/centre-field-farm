@@ -11,7 +11,7 @@ const BlogsPage = () => {
         <div className="hidden lg:block w-2/5">
           <BlogSidebarMenu />
         </div>
-        <div className="w-4/5  flex lg:flex lg:flex-col items-center justify-center borde border-yellow-500">
+        <div className="w-4/5 flex lg:flex lg:flex-col items-center justify-center borde border-yellow-500">
           <BlogFilterMenu />
 
           <BlogMainBody className="" />

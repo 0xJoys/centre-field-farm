@@ -19,12 +19,11 @@ import TeamPage from "./pages/TeamPage";
 
 import ScrollToTop from "./components/ScrollToTop";
 
-
 function App() {
   return (
     <>
       <Router>
-      <ScrollToTop />
+        <ScrollToTop />
         <NavBar />
         <Routes>
           <Route exact path="/" element={<LandingPage />} />

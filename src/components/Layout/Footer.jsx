@@ -58,17 +58,17 @@ const Footer = () => {
           <div className="borde w-52">
             <h1 className="text-3xl">Product</h1>
             <ul className="flex flex-col gap-2 text-xl">
-              <Link>
+              <Link to="livestock">
                 <li className="hover:text-PrimaryColor cursor-pointer">
                   Live Stock
                 </li>
               </Link>
 
-              <Link>
+              <Link to="/farm">
                 <li className="hover:text-PrimaryColor cursor-pointer">Farm</li>
               </Link>
 
-              <Link>
+              <Link to="/land">
                 <li className="hover:text-PrimaryColor cursor-pointer">Land</li>
               </Link>
 
@@ -124,7 +124,7 @@ const Footer = () => {
                 </li>
               </Link>
 
-              <Link>
+              <Link to="/faq">
                 <li className="hover:text-PrimaryColor cursor-pointer">fAQ</li>
               </Link>
 
